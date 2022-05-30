@@ -1,0 +1,5 @@
+Note:
+    To ue eigen, here in my computer, we can compile from the terminal as:
+        g++ -I /eigen-3.4.0/ xxx.cpp -o xxx
+    
+    This is also a good example of how to link outer source code to compile them in computer
