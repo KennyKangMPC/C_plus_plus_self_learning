@@ -6,6 +6,4 @@ from warnings import warn
 from sklearn.datasets import make_spd_matrix
 
 def LinearCG(A, b, x0, tol=1e-5):
-    xk = x0
-    A = A*b
-    xk += 2
+    a = A
