@@ -14,5 +14,5 @@ class Books {
         */
     private:
         int mYearOfPublication;
-}
+};
 #endif
