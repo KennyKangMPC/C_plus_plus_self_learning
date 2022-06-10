@@ -6,8 +6,11 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # PARTICULAR PURPOSE.
 
 # This program built for i686-pc-msys
+ 
+make.exe: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Thu Jun  9 20:41:55 2022
+
+# Make data base, printed on Fri Jun 10 20:46:29 2022
 
 # Variables
 
@@ -54,7 +57,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-cabf4a3e-69d6-450b-bf33-811a86026f52-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-cdcb2548-8eec-4d2d-85c6-9e25b7d84e65-sock
 # environment
 VSCODE_CWD = C:\Users\kangc\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -82,7 +85,7 @@ NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_34140_BZGQTVIJOFRVUCWI
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2740_DAQBWRJAQEADGZXZ
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -201,8 +204,9 @@ PROCESSOR_LEVEL = 25
 TERM = cygwin
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+ 
 # environment
-VSCODE_PID = 34140
+VSCODE_PID = 2740
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-URVP3M7R
 # variable set hash-table stats:
@@ -288,9 +292,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
  
-make.exe: *** No rule to make target `all'.  Stop.
 
-
-# Finished Make data base on Thu Jun  9 20:41:55 2022
+# Finished Make data base on Fri Jun 10 20:46:29 2022
 
  
