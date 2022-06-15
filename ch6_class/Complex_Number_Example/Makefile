@@ -16,21 +16,11 @@
 # If the file above is saved as Makefile, then to generate an up-to-date executable
 # file UseClasses we simply type “make UseClasses” at the command line.
 
+ComplexNumber.o : ComplexNumber.cpp ComplexNumber.hpp
+	g++ -c -O ComplexNumber.cpp
 
-# Books.o : Books.cpp Books.hpp
-# 	g++ -c -O Books.cpp
+useComplex.o : UseComplex.cpp ComplexNumber.hpp
+	g++ -c -O UseComplex.cpp
 
-# UseBooksClass.o : UseBooksClass.cpp Books.hpp
-# 	g++ -c -O UseBooksClass.cpp
-
-# UseBooksClass : Books.o UseBooksClass.o
-# 	g++ -O -o UseBooksClass Books.o UseBooksClass.o
-
-ExampleClass.o : ExampleClass.cpp ExampleClass.hpp
-	g++ -c -O ExampleClass.cpp
-
-UseExClass.o : UseExClass.cpp ExampleClass.hpp
-	g++ -c -O UseExClass.cpp
-
-UseExClass : ExampleClass.o UseExClass.o
-	g++ -O -o UseExClass ExampleClass.o UseExClass.o
+useComplex : ComplexNumber.o useComplex.o
+	g++ -O -o useComplex ComplexNumber.o useComplex.o
