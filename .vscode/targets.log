@@ -10,7 +10,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 make.exe: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Thu Jun 16 16:31:53 2022
+# Make data base, printed on Mon Jun 20 21:39:41 2022
 
 # Variables
 
@@ -19,7 +19,6 @@ make.exe: *** No rule to make target `all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # makefile
- 
 MAKEFLAGS = Rrqp
 # environment
 VSCODE_LOG_NATIVE = false
@@ -28,6 +27,7 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
+ 
 HOMEDRIVE = C:
 # automatic
 @F = $(notdir $@)
@@ -56,11 +56,11 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-382f1da0-2ff1-4647-b247-9d4dbfb3c2bf-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-08cecf82-0024-47ae-9585-132a86491262-sock
 # environment
 VSCODE_CWD = C:\Users\kangc\AppData\Local\Programs\Microsoft VS Code
 # environment
-PATH = /c/Program Files (x86)/Razer Chroma SDK/bin:/c/Program Files/Razer Chroma SDK/bin:/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/c/Program Files/Razer/ChromaBroadcast/bin:/c/Program Files/Python310/Scripts/:/c/Program Files/Python310/:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files/MATLAB/R2018b/runtime/win64:/c/Program Files/MATLAB/R2018b/bin:/c/Program Files/Git/cmd:/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/c/Program Files/nodejs/:/c/ProgramData/Anaconda3:/c/Program Files/CMake/bin:/c/Users/kangc/AppData/Local/Microsoft/WindowsApps:/c/Users/kangc/AppData/Local/Programs/Julia-1.6.3/bin:/c/Users/kangc/AppData/Local/Programs/Microsoft VS Code/bin:/mingw/bin:/usr/bin:/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/c/Users/kangc/AppData/Roaming/npm:/c/ProgramData/Anaconda3:/c/ProgramData/Anaconda3/Scripts:.
+PATH = /c/Program Files (x86)/Razer Chroma SDK/bin:/c/Program Files/Razer Chroma SDK/bin:/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/c/Program Files/Razer/ChromaBroadcast/bin:/c/Program Files/Python310/Scripts/:/c/Program Files/Python310/:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files/MATLAB/R2018b/runtime/win64:/c/Program Files/MATLAB/R2018b/bin:/c/Program Files/Git/cmd:/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/c/Program Files/nodejs/:/c/ProgramData/Anaconda3:/c/Program Files/CMake/bin:/c/Users/kangc/AppData/Roaming/Python/Python310/Scripts:/c/Users/kangc/AppData/Local/Microsoft/WindowsApps:/c/Users/kangc/AppData/Local/Programs/Julia-1.6.3/bin:/c/Users/kangc/AppData/Local/Programs/Microsoft VS Code/bin:/mingw/bin:/usr/bin:/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/c/Users/kangc/AppData/Roaming/npm:/c/ProgramData/Anaconda3:/c/ProgramData/Anaconda3/Scripts:/c/Users/kangc/AppData/Roaming/Python/Python310/Scripts:.
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -84,7 +84,7 @@ NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_38976_ZLGBDELHEUTWRVLY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1844_GNCNMIFLTQDIFKCK
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -104,7 +104,7 @@ PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\kangc\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = C:\Users\kangc\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -148,7 +148,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\c7707f41f1093906c7d32b5799068e66-1.68.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\c7707f41f1093906c7d32b5799068e66-1.68.1-main-sock
 # environment
 HOMEPATH = \
 # environment
@@ -202,7 +202,7 @@ PROCESSOR_LEVEL = 25
 # environment
 TERM = cygwin
 # environment
-VSCODE_PID = 38976
+VSCODE_PID = 1844
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-URVP3M7R
 # variable set hash-table stats:
@@ -214,9 +214,9 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-URVP3M7R
 
 # Directories
 
-# . (device 22013, inode 2339411): 30 files, no impossibilities.
+# . (device 22013, inode 2339411): 33 files, no impossibilities.
 
-# 30 files, no impossibilities in 1 directories.
+# 33 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -281,15 +281,15 @@ GNUmakefile:
 
 # No `vpath' search paths.
 
+ 
 # No general (`VPATH' variable) search path.
 
- 
 # # of strings in strcache: 0
 # # of strcache buffers: 0
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
  
 
-# Finished Make data base on Thu Jun 16 16:31:53 2022
+# Finished Make data base on Mon Jun 20 21:39:41 2022
 
  
