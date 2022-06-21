@@ -12,6 +12,11 @@ functions are pure virtual functions by completing the declaration of these memb
 with “= 0” as shown in the listing below. Should we mistakenly attempt to create
 an instance of the class AbstractOdeSolver we would get a compilation error.
 */
+
+// More detailed explanation: of Abstract class/interface in C++
+// https://www.tutorialspoint.com/cplusplus/cpp_interfaces.htm
+
+// Example code: https://github.com/alandella/runge-kutta-4
 class AbstractOdeSolver {
     protected:
         double stepSize;

@@ -10,7 +10,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 make.exe: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Mon Jun 20 21:39:41 2022
+# Make data base, printed on Tue Jun 21 21:20:17 2022
 
 # Variables
 
@@ -27,8 +27,8 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
- 
 HOMEDRIVE = C:
+ 
 # automatic
 @F = $(notdir $@)
 # automatic
@@ -48,6 +48,8 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # makefile
 MAKEFILE_LIST := 
 # environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
 TMP = /tmp
 # environment
 VSCODE_VERBOSE_LOGGING = true
@@ -56,7 +58,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-08cecf82-0024-47ae-9585-132a86491262-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-52e3ee8c-e042-42a4-9818-42d1239ed42e-sock
 # environment
 VSCODE_CWD = C:\Users\kangc\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -84,7 +86,7 @@ NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1844_GNCNMIFLTQDIFKCK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7344_DALSBSSPTGCAJJEE
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -202,11 +204,13 @@ PROCESSOR_LEVEL = 25
 # environment
 TERM = cygwin
 # environment
-VSCODE_PID = 1844
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 7344
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-URVP3M7R
 # variable set hash-table stats:
-# Load=95/1024=9%, Rehash=0, Collisions=10/117=9%
+# Load=97/1024=9%, Rehash=0, Collisions=10/119=8%
 
 # Pattern-specific Variable Values
 
@@ -281,7 +285,6 @@ GNUmakefile:
 
 # No `vpath' search paths.
 
- 
 # No general (`VPATH' variable) search path.
 
 # # of strings in strcache: 0
@@ -290,6 +293,6 @@ GNUmakefile:
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
  
 
-# Finished Make data base on Mon Jun 20 21:39:41 2022
+# Finished Make data base on Tue Jun 21 21:20:17 2022
 
  
