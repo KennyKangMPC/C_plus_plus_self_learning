@@ -1,0 +1,7 @@
+https://blog.csdn.net/qq_33349365/article/details/101514412
+
+Above link is very useful when github is not able to be connected.
+
+取消代理: 
+git config --global --unset http.proxy
+git config --global --unset https.proxy
