@@ -4,6 +4,9 @@ import matplotlib as mpl
 from matplotlib.animation import FuncAnimation
 from fplanck import fokker_planck, boundary, gaussian_pdf, harmonic_potential
 from mpl_toolkits.mplot3d import Axes3D
+import matplotlib as mpl
+
+mpl.rc('font', size=15)
 
 nm = 1e-9
 viscosity = 8e-4
@@ -22,7 +25,7 @@ Nsteps = 200
 time, Pt = sim.propagate_interval(pdf, 2e-3, Nsteps=Nsteps)
 
 ### animation
-fig, ax = plt.subplots(subplot_kw=dict(projection='3d'), constrained_layout=True)
+fig, ax = plt.subplots(subplot_kw=dict(projection='3d'))
 
 surf = ax.plot_surface(*sim.grid/nm, p0, cmap='viridis')
 
@@ -36,7 +39,14 @@ def update(i):
 
     return [surf]
 
-anim = FuncAnimation(fig, update, frames=range(Nsteps), interval=30)
-ax.set(xlabel='x (nm)', ylabel='y (nm)', zlabel='normalized PDF')
+anim = FuncAnimation(fig, update, frames=range(0,Nsteps,6), interval=180)
+# ax.set(xlabel='x (nm)', ylabel='y (nm)', zlabel='normalized PDF')
+ax.set_xlabel('x', labelpad=10)
+ax.set_ylabel('y', labelpad=10)
+ax.set_zlabel('normalized PDF', labelpad=10)
+plt.tight_layout()
+
+from my_pytools.my_matplotlib.animation import save_animation
+save_animation(anim, 'harmonic.gif', writer='imagemagick', dpi=50)
 
 plt.show()
