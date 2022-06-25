@@ -5,3 +5,16 @@ Above link is very useful when github is not able to be connected.
 取消代理: 
 git config --global --unset http.proxy
 git config --global --unset https.proxy
+
+
+Numerical C++ code
+https://www.quantstart.com/articles/C-Explicit-Euler-Finite-Difference-Method-for-Black-Scholes/
+
+Data Structure Algorithm code:
+https://github.com/KennyKangMPC/algorithmtutorprograms/tree/master/data-structures
+
+B+ tree:
+https://www.tutorialspoint.com/cplusplus-program-to-implement-bplus-tree 
+
+Neural Network from scratch
+https://github.com/Whiax/NeuralNetworkCpp
